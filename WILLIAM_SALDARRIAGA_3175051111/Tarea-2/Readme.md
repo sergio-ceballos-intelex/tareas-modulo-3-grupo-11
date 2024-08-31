@@ -1,6 +1,5 @@
 
 # Estructuras de Control en Programación
-
 ## ¿Qué son las Estructuras de Control?
 
 Las estructuras de control son un conjunto de instrucciones que determinan el flujo de ejecución de un programa. En otras palabras, son las decisiones que el programa toma sobre qué camino seguir o qué acciones realizar en función de condiciones específicas. Estas estructuras son fundamentales en cualquier lenguaje de programación porque permiten crear programas dinámicos y capaces de reaccionar a diferentes situaciones.
