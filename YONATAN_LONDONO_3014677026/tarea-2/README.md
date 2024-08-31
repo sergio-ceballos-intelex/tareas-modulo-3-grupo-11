@@ -9,7 +9,7 @@ Las principales estructuras de control son:
 
 Estas estructuras de control son fundamentales en la programación, ya que permiten crear programas flexibles y capaces de adaptarse a diferentes situaciones.
 
-------------------------------/////////////////////////////////--------------------------------
+------------------------------/////////////////////////////////---------
 
 En JavaScript, se pueden utilizar las siguientes estructuras de control:
 
