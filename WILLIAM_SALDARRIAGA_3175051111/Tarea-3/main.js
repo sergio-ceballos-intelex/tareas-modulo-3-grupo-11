@@ -1,3 +1,4 @@
-for (let i = 1;i<=50;i++){
+const limite = 2000;
+for (let i = 1;i<= limite;i++){
     console.log(`El numero es: ${i}`);
 }
