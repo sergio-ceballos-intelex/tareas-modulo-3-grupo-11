@@ -1,11 +1,11 @@
 
 let numeros = []
 
-for (let i = 1; i <= 2000; i++){
-    numeros.push(i)
+for (let i = 1; i <= 50; i++){
+    console.log(i)
 }
 
-let numbersToString = numeros.filter(number => number.toString().startsWith("2"))
+//let numbersToString = numeros.filter(number => number.toString().startsWith("2"))
 
-console.log(numbersToString)
+//console.log(numbersToString)
 
