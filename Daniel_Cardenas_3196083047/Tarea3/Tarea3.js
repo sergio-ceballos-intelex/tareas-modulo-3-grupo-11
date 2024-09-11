@@ -1,4 +1,4 @@
-// Punto 1
-for (let a = 1; a <= 50; a++) {
+// Punto 2
+for (let a = 1; a <= 2000; a++) {
     console.log (a, '<br>');
 }
