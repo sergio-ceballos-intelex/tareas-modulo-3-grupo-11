@@ -1,4 +1,8 @@
-// Punto 2
+// Punto 3
 for (let a = 1; a <= 2000; a++) {
-    console.log (a, '<br>');
+    let two = a.toString();
+    if(two.startsWith('2')){
+        console.log (a, '<br>');
+    }
+    
 }
