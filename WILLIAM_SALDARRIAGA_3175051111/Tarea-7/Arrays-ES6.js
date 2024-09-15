@@ -37,7 +37,7 @@ console.log(`2.2. El segundo estudiante se llama: ${estudiantes[1].nombre}`);
 estudiantes[0].edad = 25;
 
 // 2.4  Imprime en la consola la información completa del primer estudiante después de la actualización.
-console.log(`2.3 y 2.4 Los datos del primer estudiante son: Nombre ${estudiantes[0].nombre}, Edad: ${estudiantes[0].edad} y el Promedio: ${estudiantes[0].promedio}`);
+console.log(`2.3 y 2.4 Los datos del primer estudiante son: Nombre: ${estudiantes[0].nombre}, Edad: ${estudiantes[0].edad} y el Promedio: ${estudiantes[0].promedio}`);
 
 // Punto 3: Cálculo de Estadísticas Básicas:
 // 3.1 Calcula el promedio de edad de los estudiantes.
