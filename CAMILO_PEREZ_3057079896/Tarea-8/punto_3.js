@@ -1,5 +1,4 @@
 
-
 Callbacks: Filtrar Números Pares
 
 Descripción:  Crea una función en JavaScript que filtre los números pares de un array 

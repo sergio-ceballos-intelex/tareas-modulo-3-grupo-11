@@ -1,5 +1,4 @@
 
-  
 Callback asíncrono: Simulacion vuelo desde Colombia hasta Corea del Sur:
 
 1. Vuelo Bogota - Madrid: 7000ms (7 horas)
