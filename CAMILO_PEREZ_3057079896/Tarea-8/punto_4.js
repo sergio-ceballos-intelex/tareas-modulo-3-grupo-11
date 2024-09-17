@@ -1,6 +1,5 @@
 
-/*
-    
+  
 Callback asíncrono: Simulacion vuelo desde Colombia hasta Corea del Sur:
 
 1. Vuelo Bogota - Madrid: 7000ms (7 horas)
@@ -18,7 +17,6 @@ El programa debe imprimir lo siguiente:
  Vuelo Frankfurt - Seul, me demoré 10 horas
  Llegué a Seul
 
-*/
 
 const bogota_Madrid = (callback) => {
     console.log("Estoy en Bogotá.")

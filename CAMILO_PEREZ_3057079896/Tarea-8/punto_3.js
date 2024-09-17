@@ -1,5 +1,4 @@
 
-/*
 
 Callbacks: Filtrar Números Pares
 
@@ -13,8 +12,7 @@ Pasos a seguir:
 2. Dentro de la función `filtrarPares`, utiliza el método filter para filtrar los números pares del array.
 3. Llama al callback pasado como parámetro con el array de números pares como argumento.
 4. Implementa un callback llamado `mostrarPares` que acepte un parámetro numerosPares. Este callback debe imprimir los números pares en la consola.
-
-*/ 
+ 
 
 function filtrarPares(array,callback){
 

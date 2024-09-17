@@ -1,12 +1,9 @@
 
-/*
-
 Callbacks para Filtrar Elementos de un Arreglo:
 
 Descripción: Crea una función que tome un arreglo y un callback de filtro, 
 y devuelva un nuevo arreglo con los elementos que pasan el filtro.
 
-*/
 
 function filtrarArreglo(array, callbackFiltro) {
 
