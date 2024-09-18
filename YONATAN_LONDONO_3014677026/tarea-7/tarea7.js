@@ -134,14 +134,7 @@ console.log(`El nombre del estudiante con mayor promedio es: ${nombrePromedioMay
 console.log(`La edad del estudiante con mayor promedio es: ${edadPromedioMayor} años`)
 
 // Filtra los estudiantes mayores de 20 años en un nuevo array llamado estudiantesMayores
-const estudiantesMayores = [];
-estudiantes.filter(estudiante => {
-  if (estudiante.edad > 20){
-      estudiantesMayores.push(estudiante.nombre)        
-  }
-});
-console.log(estudiantesMayores)
+const estudiantesMayores = estudiantes.filter(estudiante => estudiante.edad > 20);
 
 // Imprime en la consola la información completa de los estudiantes mayores de 20 años
-const estudiantesMayoresDe20 = estudiantes.filter(estudiante => estudiante.edad > 20)
-console.log(estudiantesMayoresDe20)
+console.log(estudiantesMayores)
