@@ -99,8 +99,6 @@ function proximoDestino (origen, destino, tiempoVuelo, callback){
 
 proximoDestino ('Bogota', 'Madrid', 7,() => {
     proximoDestino ('Madrid', 'Frankfurt', 2,() => {
-        proximoDestino ('Frankfurt', 'Seul', 10,() => {
-            return;
-        } );
+        proximoDestino ('Frankfurt', 'Seul', 10,() => {} );
     })    
 });
