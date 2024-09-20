@@ -37,24 +37,27 @@
 // const numerosEjemplo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // filtrarPares(numerosEjemplo, mostrarPares);
 
+
+
 // Callback asíncrono: Simulación de vuelo desde Colombia hasta Corea del Sur
 
-function vueloBogotaMadrid() {
+
+
+console.log("Estoy en Bogotá");
+
+function vueloBogotaMadrid(callback) {
     setTimeout(() => {
-        console.log("Estoy en Bogotá");
         console.log("Vuelo Bogotá - Madrid, me demoré 7 horas");
         console.log("Llegué a Madrid");
-        vueloMadridFrankfurt();
+        callback();
     }, 7000);
 }
 
-function vueloMadridFrankfurt() {
+function vueloMadridFrankfurt(callback) {
     setTimeout(() => {
         console.log("Vuelo Madrid - Frankfurt, me demoré 2 horas");
         console.log("Llegué a Frankfurt");
-        vueloFrankfurtSeul(() => {
-            console.log("Secuencia de vuelos completada");
-        });
+        callback();
     }, 2000);
 }
 
@@ -62,8 +65,13 @@ function vueloFrankfurtSeul(callback) {
     setTimeout(() => {
         console.log("Vuelo Frankfurt - Seúl, me demoré 10 horas");
         console.log("Llegué a Seúl");
-        callback(); 
+        callback();
     }, 10000);
 }
 
-vueloBogotaMadrid();
+vueloBogotaMadrid(() => {
+    vueloMadridFrankfurt(() => {
+        vueloFrankfurtSeul(() => {});
+    });
+});
+
